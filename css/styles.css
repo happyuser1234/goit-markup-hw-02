@@ -95,10 +95,11 @@ font-size: var(--typical-font-size);
 line-height: var(--typical-line-height);
 cursor: pointer;
 color: var(--btn-color);
+background: #4D5AE5;
 }
 .hero-btn:hover,
-.hero-btn:focus{
-color:#404BBF;
+.hero-btn:focus {
+background: #404BBF;
 }
 /*======================/HERO============================*/
 /*====================SOLUTIONS==========================*/
