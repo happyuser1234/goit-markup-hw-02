@@ -5,45 +5,45 @@
     text-decoration: none;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto','Lato','Poppins','Open Sans', sans-serif;
 }
 .visually-hidden {
-position: absolute;
-white-space: nowrap;
-width: 1px;
-height: 1px;
-overflow: hidden;
-border: 0;
-padding: 0;
-clip: rect(0 0 0 0);
-clip-path: inset(50%);
-margin: -1px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 :root {
-title-color: #2E2F42;
-text-color: #434455;
-btn-color: #FFFFFF;
-subtitle-color: #2E2F42;
-link-color: #2E2F42;
-typical-line-height: 1.5;
-typical-font-weight: 500;
-typical-font-size: 16px;
-typical-letter-spacing: 0.02em;
+    --title-color: #2E2F42;
+    --text-color: #434455;
+    --btn-color: #FFFFFF;
+    --subtitle-color: #2E2F42;
+    --link-color: #2E2F42;
+    --typical-line-height: 1.5;
+    --typical-font-weight: 500;
+    --typical-font-size: 16px;
 }
 /*======================HEADER===========================*/
 .header {
+    background: #FFFFFF;
 }
 .header-navigation {
 }
 .logo {
-font-family: 'Raleway', sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-color:  #2E2F42;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color:  #2E2F42;
 }
 .piece {
-color: #4D5AE5;
+  color: #4D5AE5;
 }
 .header-list {
 }
@@ -53,14 +53,14 @@ color: #4D5AE5;
 }
 
 .header-link {
-font-weight: var(--typical-font-weight);
-font-size: var(--typical-font-size);
-line-height: var(--typical-line-height);
-letter-spacing: var(--typical-letter-spacing);
-color: var(--link-color);
+    font-weight: var(--typical-font-weight);
+    font-size: var(--typical-font-size);
+    line-height: var(--typical-line-height);
+    letter-spacing: 0.02em;
+    color: var(--link-color);
 }
 .header-link:hover {
-color:#404BBF;
+    color:#404BBF;
 }
 .link {
 }
@@ -69,37 +69,37 @@ color:#404BBF;
 .header-contact-item {
 }
 .header-contact-link {
-font-size: var(--typical-font-size);
-line-height: var(--typical-line-height);
-letter-spacing: var(--typical-letter-spacing);
-color: #434455;
+    font-size: var(--typical-font-size);
+    line-height: var(--typical-line-height);
+    letter-spacing: 0.02em;
+    color: #434455;
   }
 .header-contact-link:hover {
-color:#404BBF;
+  color:#404BBF;
 }
 /*======================/HEADER==========================*/
 /*======================HERO=============================*/
 .hero {
-background: #2E2F42;
+    background: #2E2F42;
 }
 .hero-title {
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: var(--typical-letter-spacing);
-color: #FFFFFF;
+    font-size: 56px;
+    line-height: 1.07;
+l  etter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 .hero-btn {
-font-family: inherit;
-font-weight: var(--typical-font-weight);
-font-size: var(--typical-font-size);
-line-height: var(--typical-line-height);
-cursor: pointer;
-color: var(--btn-color);
-background: #4D5AE5;
+    font-family: inherit;
+    font-weight: var(--typical-font-weight);
+    font-size: var(--typical-font-size);
+    line-height: var(--typical-line-height);
+    cursor: pointer;
+    color: var(--btn-color);
+    background: #4D5AE5;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-background: #404BBF;
+    background: #404BBF;
 }
 /*======================/HERO============================*/
 /*====================SOLUTIONS==========================*/
@@ -114,29 +114,29 @@ background: #404BBF;
 .solution-item {
 }
 .solution-heading {
-font-weight: var(--typical-font-weight);
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: var(--typical-letter-spacing);
-color: var(--title-color);
+    font-weight: var(--typical-font-weight);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
 }
 
 .solutions-subtitle {
-font-size: var(--typical-font-size);
-line-height: var(--typical-line-height);
-letter-spacing: var(--typical-letter-spacing);
-color: var(--text-color)
+    font-size: var(--typical-font-size);
+    line-height: var(--typical-line-height);
+    letter-spacing: 0.02em;
+    color: var(--text-color)
 }
 /*====================/SOLUTIONS=========================*/
 /*=====================SERVICES==========================*/
 .services {
 }
 .services-page-title {
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: var(--typical-letter-spacing);
-text-transform: capitalize;
-color:var(--subtitle-color);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--subtitle-color);
 }
 
 .services-image-list {
@@ -151,14 +151,14 @@ color:var(--subtitle-color);
 /*====================/SERVICES==========================*/
 /*======================ABOUT============================*/
 .about {
-background: #F4F4FD;
+    background: #F4F4FD;
 }
 .about-page-title {
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: var(--typical-letter-spacing);
-text-transform: capitalize;
-color: var(--subtitle-color);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--subtitle-color);
 }
 .about-image-list {
 }
@@ -169,39 +169,39 @@ color: var(--subtitle-color);
 .about-img {
 }
 .about-heading {
-font-weight: var(--typical-font-weight);
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: var(--typical-letter-spacing);
-color: var(--title-color); 
+    font-weight: var(--typical-font-weight);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color); 
 }
 .about-subtitle {
-font-size: var(--typical-font-size);
-line-height: var(--typical-line-height);
-letter-spacing: var(--typical-letter-spacing);
-color: var(--text-color);
+    font-size: var(--typical-font-size);
+    line-height: var(--typical-line-height);
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 /*=====================/ABOUT============================*/
 /*====================FOOTER=============================*/
 .footer {
-background: #2E2F42;
+    background: #2E2F42;
 }
 .logo {
-font-family: 'Raleway', sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-color: #F4F4FD;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #F4F4FD;
 }
 .piece {
-color:#4D5AE5;
-}
+    color:#4D5AE5;
 }
 .footer-subtitle {
-font-size: var(--typical-font-size);
-line-height: var(--typical-line-height);
-letter-spacing: var(--typical-letter-spacing);
-color: #E7E9FC;
+    font-size: var(--typical-font-size);
+    line-height: var(--typical-line-height);
+    letter-spacing: 0.02em;
+    background-color: #2E2F42;
+    color: #E7E9FC;
 }
 /*===================/FOOTER=============================*/
 /*=================MAIN MENU=============================*/
@@ -216,16 +216,16 @@ color: #E7E9FC;
 .menu-item {
 }
 .menu-btn {
-font-family: inherit;
-font-weight: var(--typical-font-weight);
-font-size: var(--typical-font-size);
-line-height: var(--typical-line-height);
-letter-spacing: 0.04em;
-cursor: pointer;
-color: #4D5AE5;
+    font-family: inherit;
+    font-weight: var(--typical-font-weight);
+    font-size: var(--typical-font-size);
+    line-height: var(--typical-line-height);
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #4D5AE5;
 }
 .menu-btn:hover {
-background-color: #404BBF;
+    background-color: #404BBF;
 }
 
 .portfolio-page-title {
@@ -237,17 +237,17 @@ background-color: #404BBF;
 .portfolio-img {
 }
 .portfolio-heading {
-font-weight: var(--typical-font-weight);
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: var(--typical-letter-spacing);
-color: var(--title-color);
+    font-weight: var(--typical-font-weight);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
 }
 
 .portfolio-subtitle {
-font-size: var(--typical-font-size);
-line-height: var(--typical-line-height);
-letter-spacing: var(--typical-letter-spacing);
-color: var(--text-color);
+    font-size: var(--typical-font-size);
+    line-height: var(--typical-line-height);
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 /*================/MAIN MENU=============================*/
