@@ -35,15 +35,17 @@ body {
 }
 .header-navigation {
 }
-.logo {
+.logo-header {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
     color:  #2E2F42;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
 }
 .piece {
-  color: #4D5AE5;
+    color: #4D5AE5;
 }
 .header-list {
 }
@@ -186,7 +188,7 @@ l  etter-spacing: 0.02em;
 .footer {
     background: #2E2F42;
 }
-.logo {
+.logo-footer {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
