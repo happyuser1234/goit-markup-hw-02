@@ -228,6 +228,7 @@ l  etter-spacing: 0.02em;
 }
 .menu-btn:hover {
     background-color: #404BBF;
+    color:#FFFFFF;
 }
 
 .portfolio-page-title {
